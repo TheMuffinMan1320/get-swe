@@ -1,4 +1,4 @@
-# swe-internship-skills
+# get-swe
 
 A pack of [Claude Code](https://claude.com/claude-code) skills for college
 students trying to land a software engineering internship — resume help,
@@ -10,13 +10,13 @@ all usable directly inside Claude Code.
 **Option A — via [skills.sh](https://skills.sh):**
 
 ```bash
-npx skills add TheMuffinMan1320/swe-internship-skills
+npx skills add TheMuffinMan1320/get-swe
 ```
 
 **Option B — one-line installer** (no dependency on the skills.sh CLI):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/TheMuffinMan1320/swe-internship-skills/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/TheMuffinMan1320/get-swe/main/install.sh | bash
 ```
 
 Both install the skills into `~/.claude/skills/`. Restart Claude Code (or

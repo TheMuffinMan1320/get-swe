@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Installs the swe-internship-skills pack into ~/.claude/skills/
-# Usage: curl -fsSL https://raw.githubusercontent.com/TheMuffinMan1320/swe-internship-skills/main/install.sh | bash
+# Installs the get-swe skill pack into ~/.claude/skills/
+# Usage: curl -fsSL https://raw.githubusercontent.com/TheMuffinMan1320/get-swe/main/install.sh | bash
 set -euo pipefail
 
-REPO="TheMuffinMan1320/swe-internship-skills"
+REPO="TheMuffinMan1320/get-swe"
 BRANCH="main"
 TARGET_DIR="${HOME}/.claude/skills"
 SKILLS=(
@@ -24,7 +24,7 @@ echo "Downloading ${REPO}@${BRANCH}..."
 curl -fsSL "https://github.com/${REPO}/archive/refs/heads/${BRANCH}.tar.gz" -o "${TMP_DIR}/repo.tar.gz"
 tar -xzf "${TMP_DIR}/repo.tar.gz" -C "${TMP_DIR}"
 
-SRC_DIR="${TMP_DIR}/swe-internship-skills-${BRANCH}"
+SRC_DIR="${TMP_DIR}/get-swe-${BRANCH}"
 mkdir -p "${TARGET_DIR}"
 
 INSTALLED=()
