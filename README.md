@@ -56,22 +56,22 @@ you don't need to prepare anything before starting.
 
 ## The 8 skills
 
-| | Skill | What it does |
-|---|---|---|
-| 📄 | `resume-review` | General audit of a resume for internship applications — structure, ATS-compatibility, bullet quality — with rewrites. |
-| 🎯 | `resume-adapter` | Tailors an existing resume to one specific job posting, reordered and reworded to match it, without fabricating experience. |
-| 🔍 | `internship-posting-searcher` | Searches the web for currently open SWE internship postings matching your criteria. |
-| 💡 | `project-idea-generator` | Generates resume-worthy project ideas scoped to a realistic timeframe, based on skills you want to showcase. |
-| 🧠 | `leetcode-coach` | Socratic DSA practice partner — staged hints and pattern nudges instead of handing over solutions. |
-| 🗣️ | `behavioral-interview-prep` | Coaches STAR-format answers and runs live mock behavioral Q&A. |
-| 💻 | `mock-technical-interview` | Simulates a full live coding interview, playing interviewer, with a rubric-style debrief. |
-| 🐙 | `github-portfolio-polish` | Audits your GitHub profile/repos for recruiter-readiness. |
+| Skill | What it does |
+|---|---|
+| <img src="./assets/icons/document.svg" width="18" height="18" alt=""> &nbsp;`resume-review` | General audit of a resume for internship applications — structure, ATS-compatibility, bullet quality — with rewrites. |
+| <img src="./assets/icons/target.svg" width="18" height="18" alt=""> &nbsp;`resume-adapter` | Tailors an existing resume to one specific job posting, reordered and reworded to match it, without fabricating experience. |
+| <img src="./assets/icons/search.svg" width="18" height="18" alt=""> &nbsp;`internship-posting-searcher` | Searches the web for currently open SWE internship postings matching your criteria. |
+| <img src="./assets/icons/bulb.svg" width="18" height="18" alt=""> &nbsp;`project-idea-generator` | Generates resume-worthy project ideas scoped to a realistic timeframe, based on skills you want to showcase. |
+| <img src="./assets/icons/brackets.svg" width="18" height="18" alt=""> &nbsp;`leetcode-coach` | Socratic DSA practice partner — staged hints and pattern nudges instead of handing over solutions. |
+| <img src="./assets/icons/chat.svg" width="18" height="18" alt=""> &nbsp;`behavioral-interview-prep` | Coaches STAR-format answers and runs live mock behavioral Q&A. |
+| <img src="./assets/icons/terminal.svg" width="18" height="18" alt=""> &nbsp;`mock-technical-interview` | Simulates a full live coding interview, playing interviewer, with a rubric-style debrief. |
+| <img src="./assets/icons/star.svg" width="18" height="18" alt=""> &nbsp;`github-portfolio-polish` | Audits your GitHub profile/repos for recruiter-readiness. |
 
 Expand any skill below for exactly what it checks, how to run it, and what
 you'll get back.
 
 <details>
-<summary><strong>📄 resume-review</strong> — general resume audit, no job posting needed</summary>
+<summary><img src="./assets/icons/document.svg" width="16" height="16" alt=""> &nbsp;<strong>resume-review</strong> — general resume audit, no job posting needed</summary>
 
 <br>
 
@@ -96,7 +96,7 @@ and concrete `Before → After` bullet rewrites.
 </details>
 
 <details>
-<summary><strong>🎯 resume-adapter</strong> — tailor your resume to one specific job posting</summary>
+<summary><img src="./assets/icons/target.svg" width="16" height="16" alt=""> &nbsp;<strong>resume-adapter</strong> — tailor your resume to one specific job posting</summary>
 
 <br>
 
@@ -122,7 +122,7 @@ resume content, and a plain list of remaining gaps.
 </details>
 
 <details>
-<summary><strong>🔍 internship-posting-searcher</strong> — find open SWE internship postings</summary>
+<summary><img src="./assets/icons/search.svg" width="16" height="16" alt=""> &nbsp;<strong>internship-posting-searcher</strong> — find open SWE internship postings</summary>
 
 <br>
 
@@ -149,7 +149,7 @@ Handshake/career portal directly.
 </details>
 
 <details>
-<summary><strong>💡 project-idea-generator</strong> — generate a portfolio project worth building</summary>
+<summary><img src="./assets/icons/bulb.svg" width="16" height="16" alt=""> &nbsp;<strong>project-idea-generator</strong> — generate a portfolio project worth building</summary>
 
 <br>
 
@@ -174,7 +174,7 @@ and what makes it non-generic. Pick one and it'll sketch a build-order plan.
 </details>
 
 <details>
-<summary><strong>🧠 leetcode-coach</strong> — Socratic DSA practice partner</summary>
+<summary><img src="./assets/icons/brackets.svg" width="16" height="16" alt=""> &nbsp;<strong>leetcode-coach</strong> — Socratic DSA practice partner</summary>
 
 <br>
 
@@ -198,7 +198,7 @@ check on your solution, and a complexity + pattern debrief.
 </details>
 
 <details>
-<summary><strong>🗣️ behavioral-interview-prep</strong> — STAR-method coaching and mock Q&A</summary>
+<summary><img src="./assets/icons/chat.svg" width="16" height="16" alt=""> &nbsp;<strong>behavioral-interview-prep</strong> — STAR-method coaching and mock Q&A</summary>
 
 <br>
 
@@ -223,7 +223,7 @@ of what to work on across your answers.
 </details>
 
 <details>
-<summary><strong>💻 mock-technical-interview</strong> — full live coding interview simulation</summary>
+<summary><img src="./assets/icons/terminal.svg" width="16" height="16" alt=""> &nbsp;<strong>mock-technical-interview</strong> — full live coding interview simulation</summary>
 
 <br>
 
@@ -249,7 +249,7 @@ structured debrief with 1-2 concrete things to work on next time.
 </details>
 
 <details>
-<summary><strong>🐙 github-portfolio-polish</strong> — recruiter-readiness audit of your GitHub</summary>
+<summary><img src="./assets/icons/star.svg" width="16" height="16" alt=""> &nbsp;<strong>github-portfolio-polish</strong> — recruiter-readiness audit of your GitHub</summary>
 
 <br>
 
