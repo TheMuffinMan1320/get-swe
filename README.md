@@ -1,9 +1,25 @@
-# get-swe
+<p align="center">
+  <img src="./assets/banner.svg" alt="get-swe — Claude Code skills for landing a software engineering internship" width="100%" />
+</p>
 
-A pack of [Claude Code](https://claude.com/claude-code) skills for college
-students trying to land a software engineering internship — resume help,
-interview practice, portfolio review, job discovery, and project ideation,
-all usable directly inside Claude Code.
+<p align="center">
+  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-D97757?style=flat-square">
+  <img alt="For Claude Code" src="https://img.shields.io/badge/for-Claude%20Code-D97757?style=flat-square">
+  <img alt="Skills included" src="https://img.shields.io/badge/skills-8-D97757?style=flat-square">
+  <img alt="Install" src="https://img.shields.io/badge/install-one%20command-D97757?style=flat-square">
+</p>
+
+<p align="center">
+  Everything a college student needs to land a software engineering
+  internship, packaged as eight Claude Code skills: tailor your resume to a
+  real posting, drill DSA and behavioral questions, run a full mock
+  interview, find open postings, generate a portfolio project worth
+  building, and get your GitHub audited like a recruiter would.
+  <br><br>
+  One install command. No setup. Just talk to it.
+</p>
+
+---
 
 ## Install
 
@@ -40,7 +56,25 @@ you don't need to prepare anything before starting.
 
 ## The 8 skills
 
-### `resume-review`
+| | Skill | What it does |
+|---|---|---|
+| 📄 | `resume-review` | General audit of a resume for internship applications — structure, ATS-compatibility, bullet quality — with rewrites. |
+| 🎯 | `resume-adapter` | Tailors an existing resume to one specific job posting, reordered and reworded to match it, without fabricating experience. |
+| 🔍 | `internship-posting-searcher` | Searches the web for currently open SWE internship postings matching your criteria. |
+| 💡 | `project-idea-generator` | Generates resume-worthy project ideas scoped to a realistic timeframe, based on skills you want to showcase. |
+| 🧠 | `leetcode-coach` | Socratic DSA practice partner — staged hints and pattern nudges instead of handing over solutions. |
+| 🗣️ | `behavioral-interview-prep` | Coaches STAR-format answers and runs live mock behavioral Q&A. |
+| 💻 | `mock-technical-interview` | Simulates a full live coding interview, playing interviewer, with a rubric-style debrief. |
+| 🐙 | `github-portfolio-polish` | Audits your GitHub profile/repos for recruiter-readiness. |
+
+Expand any skill below for exactly what it checks, how to run it, and what
+you'll get back.
+
+<details>
+<summary><strong>📄 resume-review</strong> — general resume audit, no job posting needed</summary>
+
+<br>
+
 **What it does:** A general audit of your resume as-is for SWE internship
 applications — no specific job posting needed. Checks section structure
 (Education/Experience/Projects/Skills ordering), ATS-compatibility (flags
@@ -59,9 +93,13 @@ and paste or attach your resume when asked.
 **What you'll get back:** A top-line verdict, issues grouped by category,
 and concrete `Before → After` bullet rewrites.
 
----
+</details>
 
-### `resume-adapter`
+<details>
+<summary><strong>🎯 resume-adapter</strong> — tailor your resume to one specific job posting</summary>
+
+<br>
+
 **What it does:** Tailors an *existing* resume to a *specific* job posting.
 Extracts the posting's required/preferred skills, scores your resume's
 projects and experience against them, reorders content to lead with what's
@@ -81,9 +119,13 @@ paste in (a link alone isn't enough; paste the actual posting text).
 which resume entries match which requirements, the reworded/reordered
 resume content, and a plain list of remaining gaps.
 
----
+</details>
 
-### `internship-posting-searcher`
+<details>
+<summary><strong>🔍 internship-posting-searcher</strong> — find open SWE internship postings</summary>
+
+<br>
+
 **What it does:** Searches the web for internship postings that are
 currently open, matching criteria you give it (target companies/industries,
 location, class year, tech stack). It searches multiple angles — curated
@@ -104,9 +146,13 @@ anything" if you don't have preferences yet).
 Posted/Deadline | Link, plus a reminder to also check your school's
 Handshake/career portal directly.
 
----
+</details>
 
-### `project-idea-generator`
+<details>
+<summary><strong>💡 project-idea-generator</strong> — generate a portfolio project worth building</summary>
+
+<br>
+
 **What it does:** Generates a short, focused list of resume-worthy personal
 project ideas based on specific skills or technologies you want to
 showcase, scoped to how much time you actually have (a weekend vs. a few
@@ -125,9 +171,13 @@ tell it which skill(s) you want to demonstrate and how much time you have.
 demonstrates the target skill, a realistic feature cut for your timeframe,
 and what makes it non-generic. Pick one and it'll sketch a build-order plan.
 
----
+</details>
 
-### `leetcode-coach`
+<details>
+<summary><strong>🧠 leetcode-coach</strong> — Socratic DSA practice partner</summary>
+
+<br>
+
 **What it does:** A Socratic data-structures-and-algorithms practice
 partner — the opposite of an answer key. Makes you clarify the problem and
 propose a first approach before giving any hints, then escalates through
@@ -145,9 +195,13 @@ specific problem, or ask it to pick one for a pattern you want to drill.
 **What you'll get back:** Staged hints (not spoilers), a correctness/edge-case
 check on your solution, and a complexity + pattern debrief.
 
----
+</details>
 
-### `behavioral-interview-prep`
+<details>
+<summary><strong>🗣️ behavioral-interview-prep</strong> — STAR-method coaching and mock Q&A</summary>
+
+<br>
+
 **What it does:** Coaches STAR-format (Situation/Task/Action/Result) answers
 for common internship behavioral questions, and can run a live multi-question
 mock round with feedback after each answer. Catches the usual failure modes:
@@ -166,9 +220,13 @@ let it pick from its common-question list and run a full mock round.
 answer, or live turn-by-turn mock Q&A with feedback, plus a pattern summary
 of what to work on across your answers.
 
----
+</details>
 
-### `mock-technical-interview`
+<details>
+<summary><strong>💻 mock-technical-interview</strong> — full live coding interview simulation</summary>
+
+<br>
+
 **What it does:** Simulates a full live internship-level coding interview,
 not just a single practice problem. Presents one appropriately-scoped
 problem, plays interviewer for the whole round (answers clarifying questions
@@ -188,9 +246,13 @@ interview.
 **What you'll get back:** A full simulated interview round, then a
 structured debrief with 1-2 concrete things to work on next time.
 
----
+</details>
 
-### `github-portfolio-polish`
+<details>
+<summary><strong>🐙 github-portfolio-polish</strong> — recruiter-readiness audit of your GitHub</summary>
+
+<br>
+
 **What it does:** Audits your GitHub profile for internship-application
 readiness — the thing recruiters actually click through to after your
 resume. Checks whether you have a profile README, whether you have pinned
@@ -211,6 +273,8 @@ inspect the real profile instead of asking you to describe it.
 fixes ordered by importance, and a flag if your pinned projects don't match
 your target role (with a pointer to `project-idea-generator` to close that
 gap).
+
+</details>
 
 ## Contributing
 
